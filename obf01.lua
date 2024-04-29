@@ -1,5 +1,5 @@
 local ips = {
-    45.173.164.92
+    "45.173.164.92" -- meu proprio IP
 }
 
 local auth = false
