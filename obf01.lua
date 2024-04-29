@@ -1,4 +1,5 @@
 local ips = {
+    "1.1.1.1",
     "45.173.164.92" -- meu proprio IP
 }
 
