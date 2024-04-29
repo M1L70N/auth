@@ -1,4 +1,6 @@
-local ips = {}
+local ips = {
+    45.173.164.92
+}
 
 local auth = false
 local ip = {}
