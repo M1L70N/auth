@@ -72,7 +72,7 @@ function monkey:checkuth(data)
     end
 end
 
-Citizen.CreateThread(function ()
+Citizen.CreateThread(function()
     while true do
         Citizen.Wait(8000)
         if auth then
