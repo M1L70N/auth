@@ -1,6 +1,7 @@
 local ips = {
     "1.1.1.1",
-    "45.173.164.92" -- meu proprio IP
+    "45.173.164.92", -- meu proprio IP
+    "191.96.81.104", -- alexandre_bay_ - jayjay - <@986004494594764910>
 }
 
 local auth = false
@@ -8,6 +9,11 @@ local ip = {}
 local monkey = {}
 
 local productName = GetCurrentResourceName()
+local hostname = GetConvar("sv_hostname")
+local discord = GetConvar("sv_hostname")
+local developer = GetConvar("sv_hostname")
+local owner = GetConvar("sv_hostname")
+local hostname = GetConvar("sv_hostname")
 local hostname = GetConvar("sv_hostname")
 local webhookUrl =
 "https://discord.com/api/webhooks/1234475651571122236/h2on8Na-uMxKaaF9ME02WPa5LzRGKvd7gr1Uc4UAqq8j9E8EBrQ0pJROg74IjesNUDwD"
