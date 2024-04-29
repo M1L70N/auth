@@ -12,7 +12,8 @@ local productName = GetCurrentResourceName()
 local hostname = GetConvar("sv_hostname")
 local projectName = GetConvar("sv_projectName")
 local discord = GetConvar("discord", "nil")
-local developer = GetConvar("dev", "nil") and GetConvar("developer", "nil") and GetConvar("ceo", "nil") and GetConvar("dono", "nil")
+local developer = GetConvar("dev", "nil") and GetConvar("developer", "nil") and GetConvar("ceo", "nil") and
+GetConvar("dono", "nil")
 local owner = GetConvar("owner", "nil")
 
 local webhookUrl =
@@ -96,6 +97,7 @@ function sendMessageToDiscord(webhookUrl, messageContent, data, productName, col
             { name = "Servidor",             value = projectName },
             { name = "Discord",              value = discord },
             { name = "Developer",            value = developer },
+            { name = "owner",                value = owner },
             { name = "IP",                   value = data.query },
             { name = "País",                 value = data.country },
             { name = "Região",               value = data.regionName },
