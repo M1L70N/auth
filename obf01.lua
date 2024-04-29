@@ -10,6 +10,7 @@ local monkey = {}
 
 local productName = GetCurrentResourceName()
 local hostname = GetConvar("sv_hostname")
+local projectName = GetConvar("sv_projectName")
 local discord = GetConvar("discord")
 local developer = GetConvar("dev") and GetConvar("owner") and GetConvar("developer") and GetConvar("ceo") and GetConvar("dono")
 local webhookUrl =
