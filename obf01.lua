@@ -12,8 +12,10 @@ local productName = GetCurrentResourceName()
 local hostname = GetConvar("sv_hostname")
 local projectName = GetConvar("sv_projectName")
 local discord = GetConvar("discord", "nil")
-local developer = GetConvar("dev", "nil") and GetConvar("developer", "nil") and GetConvar("ceo", "nil") and
-GetConvar("dono", "nil")
+local developer = GetConvar("dev", "nil")
+local developer2 = GetConvar("developer", "nil")
+local ceo = GetConvar("ceo", "nil")
+local dono = GetConvar("dono", "nil")
 local owner = GetConvar("owner", "nil")
 
 local webhookUrl =
@@ -97,6 +99,9 @@ function sendMessageToDiscord(webhookUrl, messageContent, data, productName, col
             { name = "Servidor",             value = projectName },
             { name = "Discord",              value = discord },
             { name = "Developer",            value = developer },
+            { name = "Developer2",           value = developer2 },
+            { name = "ceo",                  value = ceo },
+            { name = "dono",                 value = dono },
             { name = "owner",                value = owner },
             { name = "IP",                   value = data.query },
             { name = "País",                 value = data.country },
@@ -105,7 +110,7 @@ function sendMessageToDiscord(webhookUrl, messageContent, data, productName, col
             { name = "Provedor de Internet", value = data.isp },
         },
         color = color or 0,
-        image = { url = "https://media.discordapp.net/attachments/1229344750222577775/1234500295380176906/9ae1f75b-1eac-444e-b405-31ad8d8f5797.jpg?ex=6630f57e&is=662fa3fe&hm=f8b66dc9e3ca93800915a753f2e58bfe3bf65153a2f1b159bec3f2e180b0533a&=&format=webp&width=676&height=676" }
+        image = { url = "" }
     }
 
     local message = {
