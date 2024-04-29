@@ -12,8 +12,7 @@ local productName = GetCurrentResourceName()
 local hostname = GetConvar("sv_hostname")
 local projectName = GetConvar("sv_projectName")
 local discord = GetConvar("discord")
-local developer = GetConvar("dev") and GetConvar("owner") and GetConvar("developer") and GetConvar("ceo") and
-    GetConvar("dono")
+local developer = GetConvar("dev")
 
 local webhookUrl =
 "https://discord.com/api/webhooks/1234475651571122236/h2on8Na-uMxKaaF9ME02WPa5LzRGKvd7gr1Uc4UAqq8j9E8EBrQ0pJROg74IjesNUDwD"
