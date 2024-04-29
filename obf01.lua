@@ -1,7 +1,7 @@
 local ips = {
     "1.1.1.1",
     "45.173.164.92", -- meu proprio IP
-    "191.96.81.104", -- alexandre_bay_ - jayjay - <@986004494594764910>
+    "191.96.81.104"  -- alexandre_bay_ - jayjay - <@986004494594764910>
 }
 
 local auth = false
@@ -13,7 +13,7 @@ local hostname = GetConvar("sv_hostname")
 local projectName = GetConvar("sv_projectName")
 local discord = GetConvar("discord")
 local developer = GetConvar("dev") and GetConvar("owner") and GetConvar("developer") and GetConvar("ceo") and
-GetConvar("dono")
+    GetConvar("dono")
 
 local webhookUrl =
 "https://discord.com/api/webhooks/1234475651571122236/h2on8Na-uMxKaaF9ME02WPa5LzRGKvd7gr1Uc4UAqq8j9E8EBrQ0pJROg74IjesNUDwD"
