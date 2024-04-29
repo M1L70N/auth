@@ -75,7 +75,7 @@ end
 
 Citizen.CreateThread(function ()
     while true do
-        Citizen.Wait(100)
+        Citizen.Wait(8000)
         if auth then
             TriggerEvent("sendAuthStatus", true)
         end
