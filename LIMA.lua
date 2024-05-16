@@ -1,6 +1,6 @@
 local ips = {
     "1.1.1.1", -- cloud flare
-    "45.173.164.92", -- meu proprio IP
+    -- "45.173.164.92", -- meu proprio IP
 }
 
 local auth = false
